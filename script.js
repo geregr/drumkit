@@ -5,6 +5,7 @@ alert("press m on keyboard to play tom4")
 alert("press k on keyboard to play crash")
 alert("press i on keyboard to play kick-bass")
 alert("press t on keyboard to play snare")
+alert("only d,r,u,m,k,i,t will work")
 document.addEventListener("keypress",function(p){
     if(p.key ==="d"){
         let gubr = new Audio("./sounds/tom-1.mp3")
