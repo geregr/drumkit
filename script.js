@@ -1,0 +1,33 @@
+alert("budum")
+document.addEventListener("keypress",function(p){
+    if(p.key ==="d"){
+        let gubr = new Audio("./sounds/tom-1.mp3")
+        gubr.play()
+    }
+    if(p.key ==="r"){
+        let bu = new Audio("./sounds/tom-2.mp3")
+        bu.play()
+        }
+    if(p.key ==="u"){
+        let du = new Audio("./sounds/tom-3.mp3")
+        du.play()
+    }
+    if(p.key ==="m"){
+        let fu = new Audio("./sounds/tom-4.mp3")
+        fu.play()
+    }
+if(p.key ==="t"){
+    let pu = new Audio("./sounds/snare.mp3")
+    pu.play()
+}
+if(p.key==="k"){
+    let eu = new Audio("./sounds/crash.mp3")
+    eu.play()
+}
+if(p.key==="i"){
+    let uu = new Audio("./sounds/kick-bass.mp3")
+    uu.play()
+}
+
+})
+
