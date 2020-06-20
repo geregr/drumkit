@@ -1,4 +1,10 @@
-alert("budum")
+alert(" press d on keyboard to play tom1")
+alert("press r on keyboard to play tom2 ")
+alert("press u on keyboard to play tom3")
+alert("press m on keyboard to play tom4")
+alert("press k on keyboard to play crash")
+alert("press i on keyboard to play kick-bass")
+alert("press t on keyboard to play snare")
 document.addEventListener("keypress",function(p){
     if(p.key ==="d"){
         let gubr = new Audio("./sounds/tom-1.mp3")
